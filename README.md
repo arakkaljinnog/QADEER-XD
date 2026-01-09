@@ -109,19 +109,22 @@
       <td align="center" style="vertical-align: top; padding: 20px;">
         <!-- HEROKU SECTION -->
         <h3 style="color: #FF00FF;">🦅 HEROKU</h3>
-        <p style="color: #CCCCCC;">Deploy your WhatsApp bot using Heroku's Git-based workflow. A popular PaaS platform that supports Node.js, Python, and many other languages.</p>
+        <p style="color: #CCCCCC;">One-click deploy your WhatsApp bot directly from your browser using Heroku's streamlined app setup process.</p>
         
-        <!-- HEROKU BADGES/STEPS -->
+        <!-- HEROKU DIRECT DASHBOARD LINK -->
         <div style="background: #000000; padding: 15px; border-radius: 10px; border: 1px solid #6765D1; margin: 10px 0;">
-          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">🔧 <b>Pre-requisites:</b> Install Git & Heroku CLI</p>
-          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">🔄 <b>Method:</b> Push code via Git to your Heroku remote</p>
-          <p style="text-align: left; color: #00FFFF; margin: 5px 0;">📁 <b>Key File:</b> Add a <code>Procfile</code> to declare your web process</p>
+          <p style="text-align: left; color: #00FFFF; margin: 5px 0;"><b>📌 Recommended Method:</b> Deploy via Heroku Dashboard</p>
+          <p style="text-align: left; color: #00FFFF; margin: 5px 0;"><b>🔗 Your Template URL:</b></p>
+          <div style="background: #111111; padding: 10px; border-radius: 5px; margin: 10px 0; overflow: auto; text-align: center;">
+            <code style="color: #00FF00;">https://github.com/QadeerXTech/QADEER-XD</code>
+          </div>
         </div>
         
-        <a href="https://heroku.com/deploy?template=https://github.com/QadeerXTech/QADEER-XD">
-          <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" style="width: 220px;"/>
+        <!-- YOUR SPECIFIED HEROKU DASHBOARD LINK -->
+        <a href="https://dashboard.heroku.com/new?template=https://github.com/QadeerXTech/QADEER-XD">
+          <img src="https://img.shields.io/badge/🚀_DEPLOY_ON_HEROKU-6765D1?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000" alt="Deploy to Heroku" style="width: 320px;"/>
         </a>
-        <p style="color: #AAAAAA; font-size: 0.9em; margin-top: 5px;">One-click deploy with Heroku Button</p>
+        <p style="color: #AAAAAA; font-size: 0.9em; margin-top: 5px;">Click above to start the deploy process on Heroku</p>
       </td>
       
       <td align="center" style="vertical-align: top; padding: 20px;">
@@ -208,6 +211,6 @@
   # 2. Install Dependencies  
   npm install
 
-  # 3. Add Session to .env
+  # 3. Add session id .env file
   # 4. Start Bot
   npm start
